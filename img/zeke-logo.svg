@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="204px" height="204px" viewBox="0 0 204 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>logo 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Widescreen" sketch:type="MSArtboardGroup" transform="translate(-858.000000, -141.000000)">
+            <g id="logo-2" sketch:type="MSLayerGroup" transform="translate(860.000000, 143.000000)">
+                <circle id="Oval-1" stroke="#21ADFF" stroke-width="4" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" cx="100" cy="100" r="100"></circle>
+                <circle id="Oval-2" stroke-opacity="0.251075634" stroke="#FFFFFF" fill="#21ADFF" sketch:type="MSShapeGroup" cx="100" cy="100" r="80"></circle>
+                <path d="M77.4814815,120.110813 L108.619529,78.7703307 L113.252525,73.1939231 L82.3299663,74.051832 L79.7441077,84.2394996 L75.8653199,84.2394996 L75.973064,69.3333333 L121.225589,69.3333333 L122.464646,72.9258266 L87.986532,118.448615 L82.5993266,125.204647 L116.215488,124.18588 L119.286195,114.534406 C119.896748,114.534406 120.597078,114.543342 121.387205,114.561215 C122.177333,114.579089 122.877662,114.588025 123.488215,114.588025 L122.572391,129.333333 L74.8956229,129.333333 L73.3333333,125.579982 L77.4814815,120.110813 Z" id="z" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

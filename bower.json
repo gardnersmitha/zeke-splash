@@ -1,0 +1,18 @@
+{
+  "name": "zeke-splash",
+  "version": "0.0.0",
+  "authors": [
+    "gardnersmitha <austingardnersmith@gmail.com>"
+  ],
+  "main": "index.php",
+  "license": "MIT",
+  "homepage": "zekeapp.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
