@@ -77,7 +77,13 @@
       <div class="row manifesto">
         <div class="col-xs-12 col-md-6 col-md-offset-3">
           <h2>Zeke was built for the modern homeowner.</h2>
-          <p></p>
+          <p class="large">We know that being a homeowner isn't always sunshine and rainbows. Sometimes it's snowstorms and ice dams. But we also know that there's a great sense of satisfaction in taking care of your home, and being able to solve problems when they happen.</p>
+          <p class="large">Zeke was created to make you be a better, more capable homeowner. We combine data and technology (hooray internet!) with real people to answer your questions, provide bite-size guidance and education, and remind you about stuff you don't want to forget.</p>
+          <p class="large">We hope you give Zeke a try. We think it can make your life just a little bit easier.</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-md-offset-4">
+          <div class="cta-button ko">Get Your Invite</div>
         </div>
       </div>
 
@@ -87,12 +93,12 @@
     <!-- Form. Will be hidden on load. -->
     <div class="signup-form center-block row">
       <h1>Get Zeke</h1>
-      <p>We're rolling out more invites every day.</p>
+      <p class="large">Leave us your email address and we'll send an invite your way soon.</p>
       <form id="signup-form" class="col-xs-12 col-sm-6 col-sm-offset-3" accept-charset="UTF-8" action="https://formkeep.com/f/8ce2f3ae9282" method="POST">
         <input type="hidden" name="utf8" value="✓">
 
         <div class="v-input">
-          <input type="email" name="email" id="email-input" class="form-control" value="" placeholder="Email" required="required" pattern="" title="What's your email address?">
+          <input type="email" name="email" id="email-input" class="form-control" value="" placeholder="Email address" required="required" pattern="" title="What's your email address?">
           <label for="email">Email</label>
         </div>
 

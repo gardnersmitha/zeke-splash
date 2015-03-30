@@ -20,7 +20,7 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
     </head>
-    <body class="splash">
+    <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -36,8 +36,15 @@
         </div>
       </div>
 
-    <h3>Thanks! We're super excited to get you your invite.</h3>
-
+      <div class="row thanks">
+        <div class="col-xs-12 col-md-4 col-md-offset-4">
+          <h2>Thanks!</h2>
+          <p class="large">We're super excited to get you your invite.</p>
+          <a class="button-wrap" href="http://twitter.com/zekeapp">
+            <div class="cta-button blue"><i class="fa fa-twitter"></i>  Follow Zeke on Twitter</div>
+          </a>
+        </div>
+      </div>
     </div> <!-- /container-fluid -->
 
         <!-- jQuery -->
