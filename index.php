@@ -13,13 +13,21 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="shortcut icon" type="image/png" href="favicon.png" />
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-
         <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700|Open+Sans:400,300,600' rel='stylesheet' type='text/css'>        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 
+        <!-- Modernizr -->
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <!-- Our JS -->
+        <script src="js/main.js"></script>
 
     </head>
     <body class="splash">
@@ -108,14 +116,6 @@
 
       </form>
     </div>
-
-
-        <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <!-- Our JS -->
-        <script src="js/main.js"></script>
 
         <!-- Bootstrap -->
         <script src="js/vendor/bootstrap.min.js"></script>

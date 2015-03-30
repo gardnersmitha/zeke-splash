@@ -10,7 +10,7 @@ function setMockupHeight(){
 	var contentHeight = height*0.8;
 	$('#mockup-container').css({"height":height,"padding-top":height*0.11});
 	$('#mockup-content').css({"height":height*0.70,"width":width*0.96});
-	return;
+	alert('done');
 }
 
 
@@ -51,6 +51,6 @@ function submitForm(){
 		analytics.track('Submitted Email', {
 		  email: email,
 		  zipcode: zipcode
-		});``
+		});
 	});
 }
