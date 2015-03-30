@@ -1,4 +1,4 @@
-### Vestia Splash Page
+### Zeke Splash Page
 ---
 
-A simple splash page with email capture. 
+A simple splash page with email capture.

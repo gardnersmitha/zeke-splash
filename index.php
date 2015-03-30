@@ -43,7 +43,7 @@
         <div id="mockup-container" class="col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-4">
           <div id="mockup-content">
             <h1>Meet Zeke.</h1>
-            <p>Personalized answers to your home ownership questions in 24 hours.</p>
+            <p>Get personalized answers to your home ownership questions in 24 hours or less.</p>
             <div class="cta-button ko">Request an Invite</div>
           </div>
         </div>
