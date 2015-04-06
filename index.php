@@ -112,7 +112,7 @@
             <label for="email">Email</label>
           </div>
 
-          <div class="cta-button ko">Get Your Invite</div>
+          <div id="submit-form"class="cta-button ko">Get Your Invite</div>
 
         </form>
       </div>
