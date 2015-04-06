@@ -17,8 +17,6 @@ function setMockupHeight(){
 function showForm(){
 	$('.cta-button').click(function(e){
 		var form = $('.signup-form');
-		var top = $(document).scrollTop();
-		form.css({'top':top+'px'});
 		$('body').css({'overflow':'hidden'});
 
 		//Show the form
@@ -36,10 +34,9 @@ function showForm(){
 function submitForm(){
 	$('#submit-form').click(function(){
 		var email  = $('#email-input').val();
-		var zipcode = $('#zipcode-input').val()
 
-		if( email == '' || zipcode == ''){
-			alert('Please enter an email and zipcode.');
+		if( email == ''){
+			alert('Please enter an email.');
 			return false;
 		}
 

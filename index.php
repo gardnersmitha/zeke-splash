@@ -99,22 +99,23 @@
     </div> <!-- /container-fluid -->
 
     <!-- Form. Will be hidden on load. -->
-    <div class="signup-form center-block row">
-      <h1>Get Zeke</h1>
-      <p class="large">Leave us your email address and we'll send an invite your way soon.</p>
-      <form id="signup-form" class="col-xs-12 col-sm-6 col-sm-offset-3" accept-charset="UTF-8" action="https://formkeep.com/f/8ce2f3ae9282" method="POST">
-        <input type="hidden" name="utf8" value="✓">
+    <div class="signup-form modal">
+      <div class="modal-dialog">
+        <form id="signup-form" class="modal-content" accept-charset="UTF-8" action="https://formkeep.com/f/8ce2f3ae9282" method="POST">
 
-        <div class="v-input">
-          <input type="email" name="email" id="email-input" class="form-control" value="" placeholder="Email address" required="required" pattern="" title="What's your email address?">
-          <label for="email">Email</label>
-        </div>
+          <h1>Get Zeke</h1>
+          <p class="large">Leave us your email address and we'll send an invite your way soon.</p>
+          <input type="hidden" name="utf8" value="✓">
 
-        <div class="col-xs-12 col-md-4 col-md-offset-4">
-          <div id="submit-form" class="cta-button ko">Submit</div>
-        </div>
+          <div class="v-input">
+            <input type="email" name="email" id="email-input" class="form-control" value="" placeholder="Your email address" required="required" pattern="" title="What's your email address?">
+            <label for="email">Email</label>
+          </div>
 
-      </form>
+          <div class="cta-button ko">Get Your Invite</div>
+
+        </form>
+      </div>
     </div>
 
         <!-- Bootstrap -->
